@@ -3,4 +3,6 @@ project(BattleShip)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(BattleShip main.cpp)
+add_executable(BattleShip main.cpp
+        src/board.cpp
+        src/board.h)
