@@ -13,8 +13,8 @@ public:
     void build();
 
 private:
-    static const int rows = 10;
-    static const int cols = 10;
+    static const int rows = 11;
+    static const int cols = 11;
     std::string grid[rows][cols];
 
 };
