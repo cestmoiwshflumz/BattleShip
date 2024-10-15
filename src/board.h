@@ -10,11 +10,13 @@ class board {
 public:
     board();
     void display() const;
+    void build();
 
 private:
     static const int rows = 10;
     static const int cols = 10;
-    char grid[rows][cols];
+    std::string grid[rows][cols];
+
 };
 
 

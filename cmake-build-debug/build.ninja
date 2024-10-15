@@ -61,6 +61,24 @@ build CMakeFiles/BattleShip.dir/src/board.cpp.obj: CXX_COMPILER__BattleShip_unsc
   OBJECT_DIR = CMakeFiles\BattleShip.dir
   OBJECT_FILE_DIR = CMakeFiles\BattleShip.dir\src
 
+build CMakeFiles/BattleShip.dir/src/ship.cpp.obj: CXX_COMPILER__BattleShip_unscanned_Debug D$:/C++/BattleShip/src/ship.cpp || cmake_object_order_depends_target_BattleShip
+  DEP_FILE = CMakeFiles\BattleShip.dir\src\ship.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BattleShip.dir
+  OBJECT_FILE_DIR = CMakeFiles\BattleShip.dir\src
+
+build CMakeFiles/BattleShip.dir/src/player.cpp.obj: CXX_COMPILER__BattleShip_unscanned_Debug D$:/C++/BattleShip/src/player.cpp || cmake_object_order_depends_target_BattleShip
+  DEP_FILE = CMakeFiles\BattleShip.dir\src\player.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BattleShip.dir
+  OBJECT_FILE_DIR = CMakeFiles\BattleShip.dir\src
+
+build CMakeFiles/BattleShip.dir/src/shooting.cpp.obj: CXX_COMPILER__BattleShip_unscanned_Debug D$:/C++/BattleShip/src/shooting.cpp || cmake_object_order_depends_target_BattleShip
+  DEP_FILE = CMakeFiles\BattleShip.dir\src\shooting.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\BattleShip.dir
+  OBJECT_FILE_DIR = CMakeFiles\BattleShip.dir\src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target BattleShip
@@ -69,7 +87,7 @@ build CMakeFiles/BattleShip.dir/src/board.cpp.obj: CXX_COMPILER__BattleShip_unsc
 #############################################
 # Link the executable BattleShip.exe
 
-build BattleShip.exe: CXX_EXECUTABLE_LINKER__BattleShip_Debug CMakeFiles/BattleShip.dir/main.cpp.obj CMakeFiles/BattleShip.dir/src/board.cpp.obj
+build BattleShip.exe: CXX_EXECUTABLE_LINKER__BattleShip_Debug CMakeFiles/BattleShip.dir/main.cpp.obj CMakeFiles/BattleShip.dir/src/board.cpp.obj CMakeFiles/BattleShip.dir/src/ship.cpp.obj CMakeFiles/BattleShip.dir/src/player.cpp.obj CMakeFiles/BattleShip.dir/src/shooting.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\BattleShip.dir
