@@ -11,4 +11,9 @@ add_executable(BattleShip main.cpp
         src/player.cpp
         include/player.h
         src/shooting.cpp
-        include/shooting.h)
+        include/shooting.h
+        include/aircraft.h
+        include/battleship.h
+        include/submarine.h
+        include/cruiser.h
+        include/destroyer.h)
