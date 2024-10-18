@@ -5,10 +5,10 @@ set(CMAKE_CXX_STANDARD 17)
 
 add_executable(BattleShip main.cpp
         src/board.cpp
-        src/board.h
+        include/board.h
         src/ship.cpp
-        src/ship.h
+        include/ship.h
         src/player.cpp
-        src/player.h
+        include/player.h
         src/shooting.cpp
-        src/shooting.h)
+        include/shooting.h)

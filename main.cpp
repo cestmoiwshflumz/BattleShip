@@ -1,8 +1,8 @@
 #include <iostream>
-#include "src/board.h"
-#include "src/player.h"
-#include "src/ship.h"
-#include "src/shooting.h"
+#include "include/board.h"
+#include "include/player.h"
+#include "include/ship.h"
+#include "include/shooting.h"
 
 int main() {
     board b;

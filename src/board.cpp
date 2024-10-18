@@ -3,7 +3,7 @@
 //
 
 #include <iostream>
-#include "board.h"
+#include "../include/board.h"
 
 board::board() {
 }
